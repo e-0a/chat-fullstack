@@ -9,8 +9,9 @@ app.post("/authenticate", async (req, res) => {
   const { username } = req.body;
 
   try{
-    const r = await axios.put('https://api.chatengine.io/users/', { username: username, secret: username, first_name: username },
-
+    const r = await axios.put('https://api.chatengine.io/users/', 
+    { username: username, secret: username, first_name: username },
+    {headers}
   } catch (e) {
 
   }
