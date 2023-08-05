@@ -9,6 +9,8 @@ app.post("/authenticate", async (req, res) => {
   const { username } = req.body;
 
   try{
+
+  } catch {
     
   }
 });
