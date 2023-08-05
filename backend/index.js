@@ -10,8 +10,8 @@ app.post("/authenticate", async (req, res) => {
 
   try{
 
-  } catch {
-    
+  } catch (e) {
+
   }
 });
 
