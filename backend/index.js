@@ -9,7 +9,7 @@ app.post("/authenticate", async (req, res) => {
   const { username } = req.body;
 
   try{
-    const r = await
+    const r = await axios.put
   } catch (e) {
 
   }
