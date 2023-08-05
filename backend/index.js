@@ -15,7 +15,7 @@ app.post("/authenticate", async (req, res) => {
     );
     return res.status(r.status).json(r.data);
   } catch (e) {
-    return
+    return res
   }
 });
 
